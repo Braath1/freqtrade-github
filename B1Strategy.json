@@ -1,0 +1,51 @@
+{
+  "strategy_name": "B1Strategy",
+  "params": {
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "buy": {
+      "buy_adx": 31,
+      "buy_adx_enabled": false,
+      "buy_fastd": 43,
+      "buy_fastd_enabled": false,
+      "buy_fastk": 41,
+      "buy_fastk_enabled": false,
+      "buy_mfi": 19,
+      "buy_mfi_enabled": false,
+      "buy_rsi": 69,
+      "buy_rsi_enabled": false,
+      "exit_short_rsi": 46
+    },
+    "sell": {
+      "sell_adx": 81,
+      "sell_adx_enabled": true,
+      "sell_cci": 126,
+      "sell_cci_enabled": true,
+      "sell_fastd": 99,
+      "sell_fastd_enabled": false,
+      "sell_fastk": 82,
+      "sell_fastk_enabled": true,
+      "sell_mfi": 90,
+      "sell_mfi_enabled": false,
+      "sell_rsi": 99,
+      "sell_rsi_enabled": false,
+      "short_rsi": 83
+    },
+    "protection": {},
+    "roi": {
+      "0": 0.532,
+      "9302": 0.293,
+      "26567": 0.113,
+      "39188": 0
+    },
+    "stoploss": {
+      "stoploss": -0.02
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2022-10-29 15:36:25.981206+00:00"
+}
